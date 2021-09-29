@@ -52,6 +52,7 @@ function diviser(a,b){
 // 3 - la fonction "mutliplier" est lancée, puis la fonction "menu" est relancée pour un nouveau choix
 // 4 - la fonction "diviser" est lancée, puis la fonction "menu" est relancée pour un nouveau choix
 function menu(){
+    console.log("Bienvenue dans la Calculatrice ! ")
     NumeroMenu = parseInt(prompt("Que voulez-vous faire ? \nAdditionner (1), Soustraire (2), Multiplier (3) ou Diviser (4) : "));
     if(NumeroMenu === 1){
         additionner(a,b);
